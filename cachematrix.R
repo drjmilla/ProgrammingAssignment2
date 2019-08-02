@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions cache a matrix and return a cached matrix if one exits
+## 
 
-## Write a short comment describing this function
+## Creates a cached matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Returns a cached matrix if exits, else solves matrix
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
